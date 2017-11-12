@@ -41,10 +41,10 @@ These instructions will get you a copy of the project up and running on your loc
 You will need several API Keys to run your own build of apply(Me). We use the NPM package [dotenv](https://github.com/motdotla/dotenv) for our local environment variables. You should make a .env file, placed in your clone's root directory, that looks like this:
 
 ```
-DB_HOST=(Your mysql db host)
-DB_USER=(Your mysql db username)
-DB_PASS=(Your mysql db password)
-DB_NAME=(Your mysql db name)
+DB_HOST=(Your SQL db host)
+DB_USER=(Your SQL db username)
+DB_PASS=(Your SQL db password)
+DB_NAME=(Your SQL db name)
 REACT_APP_YOUTUBE_KEY=(Youtube Data API Key) // Available from [Google](https://console.developers.google.com)
 REACT_APP_GOOGLE_CX=(Google Custom search engine ID) // Available from [Google](https://developers.google.com/custom-search/json-api/v1/overview)
 REACT_APP_GOOGLE_KEY=(Google Custom Search API Key) // Available from [Google](https://developers.google.com/custom-search/json-api/v1/overview)
@@ -82,7 +82,7 @@ Contact us if you have any questions!
 * [Node.js](https://nodejs.org) - JavaScript runtime
 * [Express](https://expressjs.com/)- Fantastic Node.js web server framework
 * [Firebase Authentication](https://firebase.google.com/docs/auth/)
-* [MySQL](https://www.postgresql.org/) - Object-relational database
+* [PostgreSQL](https://www.postgresql.org/) - Object-relational database
 * [Sequelize](www.sequelizejs.com) - Powerful ORM tool for SQL databases
 * [React Materialize](https://react-materialize.github.io/#/) - Material design for react
 * [Materialize](http://materializecss.com/) - A modern responsive front-end framework based on Material Design
